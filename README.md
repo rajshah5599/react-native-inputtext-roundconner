@@ -30,7 +30,7 @@ A component for handling email input. It includes:
 #### Usage Example:
 
 ```jsx
-import { EmailInputText } from './path/to/EmailInputText';
+import { EmailInputText } from 'react-native-inputtext-roundconner';
 
 // Inside your component
 <EmailInputText
@@ -45,7 +45,7 @@ import { EmailInputText } from './path/to/EmailInputText';
 />
 ```
 
-### 2. `PwdInputText`
+### 2. `PasswordInputText`
 
 A component for handling password input. It includes:
 
@@ -56,7 +56,7 @@ A component for handling password input. It includes:
 #### Usage Example:
 
 ```jsx
-import { PwdInputText } from './path/to/PwdInputText';
+import { PwdInputText } from 'react-native-inputtext-roundconner';
 
 // Inside your component
 <PwdInputText
