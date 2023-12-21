@@ -1,13 +1,13 @@
-<<<<<<< HEAD
 # react-native-inputtext-roundconner
 =======
+
 # React Native Email and Password Input Components
 
-![Email and Password Input Components Empty](img/1.png)
-![Email and Password Input Components Email Error](img/2.png)
-![Email and Password Input Components Password Error Minimum 6 Character Count](img/3.png)
-![Email and Password Input Components Email and Password validate](img/4.png)
-![Email and Password Input Components Password Hidden](img/5.png)
+![Email and Password Input Components Empty](Img/1.png)
+![Email and Password Input Components Email Error](Img/2.png)
+![Email and Password Input Components Password Error Minimum 6 Character Count](Img/3.png)
+![Email and Password Input Components Email and Password validate](Img/4.png)
+![Email and Password Input Components Password Hidden](Img/5.png)
 
 This repository contains reusable React Native components for handling email and password input fields. The components provide features like validation, show/hide password functionality, and customizable styling.
 
@@ -68,13 +68,3 @@ import { PwdInputText } from './path/to/PwdInputText';
 ## Styling
 
 The components come with default styling that can be customized. Styling options include border color, background color, and more.
-
-## How to Use
-
-1. Import the components into your React Native project.
-2. Use the components in your JSX by providing the necessary props.
-
-Feel free to modify and extend these components to suit your application's specific requirements. If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
-
-Enjoy coding with React Native! 🚀
->>>>>>> d2ab4575 (version 1.0.0)
