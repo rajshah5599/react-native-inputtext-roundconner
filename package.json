@@ -1,0 +1,31 @@
+{
+  "name": "react-native-inputtext-roundconner",
+  "version": "1.0.0",
+  "description": "Inputtext Roundconner",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajshah5599/react-native-inputtext-roundconner.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "Inputtext",
+    "Roundconner"
+  ],
+  "author": "Rajshah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajshah5599/react-native-inputtext-roundconner/issues"
+  },
+  "homepage": "https://github.com/rajshah5599/react-native-inputtext-roundconner#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react-native": "^0.73.1",
+    "react-native-reanimated": "^3.6.1",
+    "react-native-svg-transformer": "^1.2.0"
+  }
+}
