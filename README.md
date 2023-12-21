@@ -4,7 +4,7 @@
 # React Native Email and Password Input Components
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="Img/1.png" alt="Input Empty" width="200" height="500">
+  <img src="Img/1.png" alt="Input Empty" width="200" height="500" style="margin-right:10px">
   <img src="Img/2.png" alt="Input Email Error" width="200" height="500">
   <img src="Img/3.png" alt="Input Password Error Minimum 6 Character Count" width="200" height="500">
 </div>
