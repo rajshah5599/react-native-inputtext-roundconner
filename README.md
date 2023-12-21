@@ -3,11 +3,21 @@
 
 # React Native Email and Password Input Components
 
-| | | 
+<!-- | | | 
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="Input Empty" src="Img/1.png"> |  <img width="1604" alt="Input Email Error" src="Img/2.png">|<img width="1604" alt="Input Password Error Minimum 6 Character Count" src="Img/3.png">  |
-|<img width="1604" alt="Email and Password validate" src="Img/4.png">  |  <img width="1604" alt="Password Hidden" src="Img/5.png">
+|<img width="1604" alt="Email and Password validate" src="Img/4.png">  |  <img width="1604" alt="Password Hidden" src="Img/5.png"> -->
 
+<div style="display: flex; justify-content: space-between; margin: 10px;">
+  <img src="Img/1.png" alt="Input Empty" width="150" height="375">
+  <img src="Img/2.png" alt="Input Email Error" width="150" height="375">
+  <img src="Img/3.png" alt="Input Password Error Minimum 6 Character Count" width="150" height="375">
+</div>
+
+<div style="display: flex; justify-content: space-between; margin: 10px;">
+  <img src="Img/4.png" alt="Email and Password validate" width="150" height="375">
+  <img src="Img/5.png" alt="Password Hidden" width="150" height="375">
+</div>
 
 This repository contains reusable React Native components for handling email and password input fields. The components provide features like validation, show/hide password functionality, and customizable styling.
 
