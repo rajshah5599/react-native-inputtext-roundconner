@@ -3,7 +3,7 @@
 
 # React Native Email and Password Input Components
 
-| | | |
+| | | 
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="Input Empty" src="Img/1.png"> |  <img width="1604" alt="Input Email Error" src="Img/2.png">|<img width="1604" alt="Input Password Error Minimum 6 Character Count" src="Img/3.png">  |
 |<img width="1604" alt="Email and Password validate" src="Img/4.png">  |  <img width="1604" alt="Password Hidden" src="Img/5.png">
