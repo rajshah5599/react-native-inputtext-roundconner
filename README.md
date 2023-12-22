@@ -29,6 +29,8 @@ A component for handling email input. It includes:
 ```jsx
 import { EmailInputText } from 'react-native-inputtext-roundconner';
 
+ const [getEmail, setEmail] = useState('')
+ 
 // Inside your component
 <EmailInputText
   title="Email"
@@ -55,13 +57,22 @@ A component for handling password input. It includes:
 ```jsx
 import { PasswordInputText } from 'react-native-inputtext-roundconner';
 
+  const [getPassword, setPassword] = useState('')
+  const [getShowPassword, setShowPassword] = useState(false)
+
+  const ShowPassword = () => {
+    setShowPassword(!getShowPassword)
+  }
+
 // Inside your component
 <PasswordInputText
   title="Password"
   placeholder="Enter your password"
+  value={getPassword}
   secureTextEntry={true}
-  value={passwordValue}
-  onChangeText={(newPassword) => setPasswordValue(newPassword)}
+  passwordShow={getShowPassword}
+  onPressShowPassword={() => ShowPassword()}
+  onChangeText={(newPassword) => setPassword(newPassword)}
   maxLength={50}
   // Additional props can be passed
 />
