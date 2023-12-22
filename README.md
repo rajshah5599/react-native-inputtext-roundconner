@@ -1,6 +1,3 @@
-# react-native-inputtext-roundconner
-=======
-
 # React Native Email and Password Input Components
 
 <div style="display: flex; justify-content: space-between; margin: 10px;">
@@ -56,10 +53,10 @@ A component for handling password input. It includes:
 #### Usage Example:
 
 ```jsx
-import { PwdInputText } from 'react-native-inputtext-roundconner';
+import { PasswordInputText } from 'react-native-inputtext-roundconner';
 
 // Inside your component
-<PwdInputText
+<PasswordInputText
   title="Password"
   placeholder="Enter your password"
   secureTextEntry={true}

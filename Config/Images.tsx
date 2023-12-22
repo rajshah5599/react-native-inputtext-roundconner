@@ -1,13 +1,8 @@
-/* App config for images
- */
-
-import iconEye from "../assets/IconEye.svg";
-import IconEyeShow from "../assets/IconEyeShow.svg";
 
 
 const AssetsImages = {
-    IconEye: iconEye,
-    IconEyeShow: IconEyeShow,
+    IconEye: require("../assets/IconEye.png"),
+    IconEyeShow: require("../assets/IconEye.png"),
 };
 
 export default AssetsImages;
