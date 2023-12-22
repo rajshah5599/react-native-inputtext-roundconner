@@ -23,9 +23,7 @@
   },
   "homepage": "https://github.com/rajshah5599/react-native-inputtext-roundconner#readme",
   "dependencies": {
-    "lodash": "^4.17.21",
-    "react-native": "^0.73.1",
-    "react-native-reanimated": "^3.6.1",
-    "react-native-svg-transformer": "^1.2.0"
+    "react": "18.2.0",
+    "react-native": "0.72.7"
   }
 }
