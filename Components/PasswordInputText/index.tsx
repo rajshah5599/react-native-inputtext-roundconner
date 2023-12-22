@@ -5,7 +5,6 @@ import {
     TouchableOpacity,
     StyleSheet,
     Text,
-    Platform,
     Image,
 } from 'react-native';
 import AssetsImages from '../../Config/Images';
@@ -132,13 +131,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderColor: AppColors.color.COLOR_WHITE,
         borderWidth: 1.5,
-        shadowOffset: {
-            width: 0.5,
-            height: 0.5,
-        },
-        shadowOpacity: 0.15,
-        shadowRadius: 0.5,
-        elevation: Platform.OS == 'ios' ? 1 : 0,
         paddingLeft: 8,
     },
     title: {
